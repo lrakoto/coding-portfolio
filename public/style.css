@@ -1,16 +1,16 @@
 /* ----- Header/Footer styling ----- */
 .custom-h-pos{
-  min-width:900px;
+  width:900px;
   position:fixed;
   top:0;
   left:calc(50vw - 450px);
 }
 
 .custom-f-pos{
-  min-width:900px;
+  width:1000px!important;
   position:fixed;
   bottom:0;
-  left:calc(50vw - 450px);
+  left:calc(50vw - 500px);
 }
 
 /* ----- END Header/Footer styling ----- */

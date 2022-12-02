@@ -30,11 +30,11 @@ function App() {
     <Router>
       <div>
       <header className="d-flex justify-content-center py-3 custom-h-pos">
-          <ul className="nav nav-pills">
-            <li className="nav-item"><a className="nav-link"><Link to='/'>Home</Link></a></li>
-            <li className="nav-item"><a className="nav-link"><Link to='/about'>About</Link></a></li>
-            <li className="nav-item"><a className="nav-link"><Link to='/projects'>Projects</Link></a></li>
-            <li className="nav-item"><a className="nav-link"><Link to='/blog'>Blog</Link></a></li>
+          <ul className="nav nav-pills" id="nound">
+            <Link to='/'><li className="nav-item"><span className="nav-link c-navlink">Home</span></li></Link>
+            <Link to='/about'><li className="nav-item"><span className="nav-link c-navlink">My Skills</span></li></Link>
+            <Link to='/projects'><li className="nav-item"><span className="nav-link c-navlink">Projects</span></li></Link>
+            <Link to='/blog'><li className="nav-item"><span className="nav-link c-navlink">Blog</span></li></Link>
           </ul>
         </header>
       </div>

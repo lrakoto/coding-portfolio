@@ -8,18 +8,18 @@ function Projects() {
         <section className="text-center container">
           <div className="row">
             <div className="col-lg-6 col-md-8 mx-auto">
-              <h1>Projects</h1>
+              <h1 className="main-title">Projects</h1>
               <p className="lead text-muted">View projects here</p>
             </div>
           </div>
         </section>
 
-        <div className="album bg-dark">
+        <div className="album">
           <div className="container">
 
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
               <div className="col">
-                <div className="card text-white bg-dark shadow-lg">
+                <div className="card shadow-lg">
                   <img className="bd-placeholder-img card-img-top" width="100%" height="225" src="https://i.ibb.co/9V2yxZL/bshooter.png" />
 
                   <div className="card-body">
@@ -36,7 +36,7 @@ function Projects() {
                 </div>
               </div>
               <div className="col">
-                <div className="card text-white bg-dark shadow-lg">
+                <div className="card shadow-lg">
                   <img className="bd-placeholder-img card-img-top" width="100%" height="225" src="https://i.ibb.co/mFDVjTd/autodex.png" />
 
                   <div className="card-body">
@@ -53,7 +53,7 @@ function Projects() {
                 </div>
               </div>
               <div className="col">
-                <div className="card text-white bg-dark shadow-lg">
+                <div className="card shadow-lg">
                   <img className="bd-placeholder-img card-img-top" width="100%" height="225" src="https://i.ibb.co/zmbPtVW/p3.jpg" alt="p3" />
 
                   <div className="card-body">
