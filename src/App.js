@@ -43,6 +43,7 @@ function App() {
           <Route path='/projects' element={<Projects />} />
           <Route path='/about' element={<About />} />
           <Route path='/blog' element={<Blog posts={posts} setPosts={setPosts} />} />
+          <Route path='/*' element={<Home />} />
       </Routes>
     </Router>
   );
