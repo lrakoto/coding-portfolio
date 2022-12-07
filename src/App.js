@@ -34,15 +34,13 @@ function App() {
             <Link to='/'><li className="nav-item"><span className="nav-link c-navlink">Home</span></li></Link>
             <Link to='/about'><li className="nav-item"><span className="nav-link c-navlink">My Skills</span></li></Link>
             <Link to='/projects'><li className="nav-item"><span className="nav-link c-navlink">Projects</span></li></Link>
-            <Link to='/blog'><li className="nav-item"><span className="nav-link c-navlink">Blog</span></li></Link>
           </ul>
         </header>
       </div>
       <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/coding-portfolio' element={<Home />} />
           <Route path='/projects' element={<Projects />} />
           <Route path='/about' element={<About />} />
-          <Route path='/blog' element={<Blog posts={posts} setPosts={setPosts} />} />
           <Route path='/*' element={<Home />} />
       </Routes>
     </Router>
