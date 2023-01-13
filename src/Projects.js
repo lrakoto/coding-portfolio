@@ -30,7 +30,7 @@ function Projects() {
                         <a href="https://github.com/lrakoto/blockshooter" target="_blank"><button type="submit" className="btn btn-sm btn-outline-secondary">Github</button></a>
                         <a href="https://lrakoto.github.io/blockshooter/" target="_blank"><button type="button" className="btn btn-sm btn-outline-secondary">View Live Project</button></a>
                       </div>
-                      <small className="text-muted">Project 1</small>
+                      <small className="text-muted">Javascript | HTML | CSS</small>
                     </div>
                   </div>
                 </div>
@@ -47,7 +47,7 @@ function Projects() {
                         <a href="https://github.com/lrakoto/auto-dex" target="_blank"><button type="submit" className="btn btn-sm btn-outline-secondary">Github</button></a>
                         <a href="https://auto-dex.herokuapp.com/" target="_blank"><button type="button" className="btn btn-sm btn-outline-secondary">View Live Project</button></a>
                       </div>
-                      <small className="text-muted">9 mins</small>
+                      <small className="text-muted">Javascript | Node | Express</small>
                     </div>
                   </div>
                 </div>
@@ -63,7 +63,7 @@ function Projects() {
                       <div className="btn-group">
                         <button type="button" className="btn btn-sm btn-outline-secondary">Github Coming Soon</button>
                       </div>
-                      <small className="text-muted">9 mins</small>
+                      <small className="text-muted">Coming Soon</small>
                     </div>
                   </div>
                 </div>
